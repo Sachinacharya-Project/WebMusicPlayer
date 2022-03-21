@@ -37,7 +37,7 @@ const setResults = ()=>{
                 errorCount = 0
                 play.textContent = "Play"
             }
-        }else if(statue == 'processing'){
+        }else if(status == 'processing'){
             if(errorCount >= 3){
                 info.textContent = 'Could not load audio because of long duration'
                 play.textContent = "Play"
